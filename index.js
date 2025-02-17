@@ -19,8 +19,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎀 Looking over LACRP", "🎮 Providing Enjoyment"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["🎀 Looking over LACRP", "🎮 Providing Enjoyment to LCRP", "👑 Founded by 46Huddo002"];
+const statusTypes = [ 'online', 'online', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
